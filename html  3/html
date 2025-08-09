@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustentabilidade em Pato Bragado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Arial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menu de Acessibilidade -->
+    <div class="acessibilidade-wrapper">
+        <div class="acessibilidade-menu">
+            <button onclick="ativarContraste()">Alto Contraste</button>
+            <button onclick="aumentarFonte()">A+ Aumentar Fonte</button>
+            <button onclick="diminuirFonte()">A- Diminuir Fonte</button>
+        </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header class="site-header">
+        <h1>Sustentabilidade em Pato Bragado</h1>
+        <p>Práticas sustentáveis na escola e comunidade local</p>
+        <div>
+            <span class="icone-animado">🌱</span>
+            <span class="icone-animado">💧</span>
+            <span class="icone-animado">♻️</span>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <div class="div1">
+            <h2 class="div-titulo">Sustentabilidade na Escola</h2>
+            <p>Na Escola Municipal de Pato Bragado, desenvolvemos projetos que integram educação ambiental com ações práticas. Nossas iniciativas incluem:</p>
+            <ul class="lista-sustentabilidade">
+                <li>Horta escolar orgânica cultivada pelos alunos</li>
+                <li>Sistema de coleta seletiva de resíduos</li>
+                <li>Compostagem dos resíduos orgânicos da merenda</li>
+                <li>Uso racional da água com captação de água da chuva</li>
+            </ul>
+            
+            <div class="img-container">
+                <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Horta escolar">
+                <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Coleta seletiva">
+            </div>
+            
+            <a href="#projetos" class="botao-acao">Conheça nossos projetos</a>
+        </div>
+
+        <div class="div2" id="projetos">
+            <h2 class="div-titulo">Protagonismo Juvenil</h2>
+            <p>Os alunos de Pato Bragado estão liderando iniciativas sustentáveis através da tecnologia:</p>
+            
+            <div class="img-container">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Alunos trabalhando em projeto">
+                <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Tecnologia sustentável">
+            </div>
+            
+            <p>Desenvolvemos um aplicativo chamado "EcoPato" que ajuda a comunidade a:</p>
+            <ul class="lista-sustentabilidade">
+                <li>Localizar pontos de coleta seletiva</li>
+                <li>Agendar coleta de resíduos especiais</li>
+                <li>Monitorar o consumo de água e energia</li>
+                <li>Receber dicas de sustentabilidade</li>
+            </ul>
+            
+            <a href="#comunidade" class="botao-acao">Veja ações na comunidade</a>
+        </div>
+
+        <div class="div3" id="comunidade">
+            <h2 class="div-titulo">Ações na Comunidade</h2>
+            <p>Pato Bragado está se tornando referência em sustentabilidade com estas iniciativas:</p>
+            
+            <div class="img-container">
+                <img src="https://images.unsplash.com/photo-1503596476-1c12a8ba09a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Feira de trocas">
+                <img src="https://images.unsplash.com/photo-1565402170291-8491f14678db?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Energia solar">
+            </div>
+            
+            <p><strong>Feira de Trocas Sustentáveis:</strong> Mensalmente, a comunidade se reúne para trocar objetos usados, reduzindo o consumo.</p>
+            <p><strong>Energia Solar:</strong> A prefeitura está instalando painéis solares em prédios públicos, com monitoramento feito pelos alunos.</p>
+            <p><strong>Agricultura Familiar:</strong> Incentivo à produção local orgânica, reduzindo o transporte de alimentos.</p>
+            
+            <a href="#recursos" class="botao-acao">Uso consciente de recursos</a>
+        </div>
+
+        <div class="div4" id="recursos">
+            <h2 class="div-titulo">Uso Consciente dos Recursos</h2>
+            <p>Nossa escola desenvolveu um sistema inteligente para monitorar e reduzir o consumo:</p>
+            
+            <div class="img-container">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Monitoramento de consumo">
+                <img src="https://images.unsplash.com/photo-1486868879127-1c7b82eb9dc4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Gráficos de consumo">
+            </div>
+            
+            <p>Com sensores IoT desenvolvidos nas aulas de tecnologia, monitoramos em tempo real:</p>
+            <ul class="lista-sustentabilidade">
+                <li>Consumo de água em todas as torneiras</li>
+                <li>Energia elétrica por setor da escola</li>
+                <li>Geração de resíduos por turma</li>
+            </ul>
+            <p>Os dados são analisados pelos alunos e transformados em ações concretas de redução.</p>
+            
+            <a href="#participacao" class="botao-acao">Como participar</a>
+        </div>
+
+        <div class="div5" id="participacao">
+            <h2 class="div-titulo">Como se Engajar</h2>
+            <p>Toda a comunidade pode participar das iniciativas sustentáveis:</p>
+            
+            <div class="img-container">
+                <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Voluntários trabalhando">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Reunião comunitária">
+            </div>
+            
+            <p><strong>Para alunos:</strong> Participe do Grêmio Ambiental ou das aulas de tecnologia aplicada à sustentabilidade.</p>
+            <p><strong>Para professores:</strong> Incorpore os projetos sustentáveis em suas disciplinas.</p>
+            <p><strong>Para a comunidade:</strong> Participe das feiras de trocas, use o aplicativo EcoPato e adote práticas sustentáveis em casa.</p>
+            
+            <a href="mailto:ecopato@escolapb.edu.br" class="botao-acao">Entre em contato</a>
+            <a href="#" class="botao-acao">Baixe nosso aplicativo</a>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Escola Municipal de Pato Bragado - Transformando nossa comunidade através da sustentabilidade</p>
+        <p>Projeto desenvolvido por alunos com orientação de professores</p>
+        <div class="redes-sociais">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+        </div>
+        <p>© 2023 Todos os direitos reservados</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>S
